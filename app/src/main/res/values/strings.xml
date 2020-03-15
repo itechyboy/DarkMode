@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Dark Mode</string>
+    <string name="this_is_just_another_text_view">This is just another text view</string>
+    <string name="change_theme">Change Theme</string>
+    <string name="this_is_dark_theme_example_project">This is dark theme example project</string>
+</resources>
