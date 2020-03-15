@@ -2,7 +2,6 @@ package tk.itechyboy.darkmode;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -34,9 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     sharedPref.setNightModeState(true);
                 }
-                //finish();
                 animate(MainActivity.this);
-                //startActivity(new Intent(MainActivity.this, MainActivity.this.getClass()));
             }
         });
     }
